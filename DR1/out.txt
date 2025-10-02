@@ -1,0 +1,4 @@
+Suma 27
+Media 4.5
+Minim 2
+Maxim 8
