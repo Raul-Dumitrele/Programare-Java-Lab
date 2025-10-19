@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainApp {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("a=");
+        System.out.println("n=");
         int a = scanner.nextInt();
         System.out.println("Divizorii numarului: "+a);
 
