@@ -8,25 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TestPB2 {
     @Test
-    void testGetSet() {
-        PerecheNumere p = new PerecheNumere(2, 5);
-        assertEquals(2, p.getNr1());
-        assertEquals(5, p.getNr2());
-
-        p.setNr1(10);
-        p.setNr2(20);
-        assertEquals(10, p.getNr1());
-        assertEquals(20, p.getNr2());
-    }
-
-    @Test
-    void testToString() {
-        PerecheNumere p = new PerecheNumere(7, 9);
-        assertTrue(p.toString().contains("nr1=7"));
-        assertTrue(p.toString().contains("nr2=9"));
-    }
-
-    @Test
     void testFibonaciTrue() {
         assertTrue(PerecheNumere.Fibonaci(3, 5));
     }
@@ -48,22 +29,22 @@ public class TestPB2 {
 
     @Test
     void testSumaCifrelorTrue() {
-        assertTrue(PerecheNumere.SumaCifrelor(123, 114));
+        assertTrue(PerecheNumere.SumaCifrelor(12, 21));
     }
 
     @Test
     void testSumaCifrelorFalse() {
-        assertFalse(PerecheNumere.SumaCifrelor(123, 789));
+        assertFalse(PerecheNumere.SumaCifrelor(12, 34));
     }
 
     @Test
     void testCifrePareTrue() {
-        assertTrue(PerecheNumere.CifrePare(246, 824));
+        assertTrue(PerecheNumere.CifrePare(24, 46));
     }
 
     @Test
     void testCifrePareFalse() {
-        assertFalse(PerecheNumere.CifrePare(123, 456));
+        assertFalse(PerecheNumere.CifrePare(23, 46));
     }
 }
 

@@ -47,7 +47,6 @@ public class PerecheNumere {
         return false;
     }
 
-
     public static int cmmmc(int nr1,int nr2){
         for(int i=2;i<=(nr1+nr2)/2;i++){
             if((nr1%i==0)&&(nr2%i==0))
@@ -88,8 +87,4 @@ public class PerecheNumere {
         }
         return false;
     }
-
-
-
-
 }
