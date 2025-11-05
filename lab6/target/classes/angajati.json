@@ -1,0 +1,7 @@
+[
+  {"nume": "Ion Popescu", "post": "director", "data_angajarii": [2020, 3, 15], "salariu": 7500},
+  {"nume": "Maria Ionescu", "post": "sef departament", "data_angajarii": [2022, 4, 10], "salariu": 4200},
+  {"nume": "Andrei Georgescu", "post": "programator", "data_angajarii": [2023, 7, 5], "salariu": 3100},
+  {"nume": "Elena Dobre", "post": "analist", "data_angajarii": [2021, 5, 19], "salariu": 2700},
+  {"nume": "Mihai Stan", "post": "operator", "data_angajarii": [2022, 6, 12], "salariu": 2600}
+]
